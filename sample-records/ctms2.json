@@ -1,0 +1,49 @@
+{
+  "ProjectID": "urn:project1",
+  "ProjectName": "string",
+  "ProjectObjectives": "string",
+  "ProjectDesign": "string",
+  "CountryCode": "AU",
+  "PublishDate": "2017-11-13",
+  "ProjectDataAccessandUseConstraints": "string",
+  "PrincipalInvestigators": [{
+    "PrincipalInvestigatorName": "person one",
+    "PrincipalInvestigatorEmail": "person@example.com"
+  },
+  {
+    "PrincipalInvestigatorName": "person two",
+    "PrincipalInvestigatorEmail": "person2@example.com"
+  },
+  {
+    "PrincipalInvestigatorName": "person three",
+    "PrincipalInvestigatorEmail": "person3@example.com"
+  }],
+  "ProjectContacts": [{
+    "ProjectContactName": "person one",
+    "ProjectContactEmail": "person@example.com"
+  }],
+  "OrganizationName": "string",
+  "CameraDeploymentID": "urn:camdep01",
+  "CameraSiteName": "string",
+  "CameraDeploymentBeginDate": "2017-11-13T09:10:11",
+  "CameraDeploymentEndDate": "2017-11-13T09:10:14",
+  "DeploymentLocationID": "dep01",
+  "QuietPeriodSetting": 1.3,
+  "ActualLatitude": 64.342134,
+  "ActualLongitude": -134.324583,
+  "CameraMake": "Awesome SLR",
+  "Bait": "scent",
+  "Feature": "road, paved",
+  "CameraStatus": "camera functioning",
+  "Other": "string",
+  "Image": {
+    "ImageID": "urn:img1",
+    "ImageDateTime": "2017-11-13T09:10:11",
+    "PhotoType": "blank",
+    "PhotoTypeIdentifiedBy": [ "C Carlson" ],
+    "ImageIdentifications": [{
+      "SpeciesScientificName": "species twous",
+      "Count": 88
+    }]
+  }
+}

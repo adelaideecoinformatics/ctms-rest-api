@@ -1,0 +1,42 @@
+{
+  "ProjectID": "urn:project1",
+  "ProjectName": "string",
+  "ProjectObjectives": "string",
+  "ProjectDesign": "string",
+  "CountryCode": "AU",
+  "PublishDate": "2017-11-13",
+  "ProjectDataAccessandUseConstraints": "string",
+  "PrincipalInvestigators": [{
+    "PrincipalInvestigatorName": "string",
+    "PrincipalInvestigatorEmail": "person@example.com"
+  }],
+  "ProjectContacts": [{
+    "ProjectContactName": "string",
+    "ProjectContactEmail": "person@example.com"
+  }],
+  "OrganizationName": "string",
+  "CameraDeploymentID": "urn:camdep01",
+  "CameraSiteName": "string",
+  "CameraDeploymentBeginDate": "2017-11-13T09:10:11",
+  "CameraDeploymentEndDate": "2017-11-13T09:10:14",
+  "DeploymentLocationID": "dep01",
+  "QuietPeriodSetting": 1.3,
+  "ActualLatitude": 64.342134,
+  "ActualLongitude": -134.324583,
+  "CameraMake": "Awesome SLR",
+  "Bait": "scent",
+  "Feature": "road, paved",
+  "CameraStatus": "camera functioning",
+  "Other": "string",
+  "ImageSequence": {
+    "ImageSequenceID": "urn:seq1",
+    "ImageSequenceBeginTime": "2017-11-13T09:10:11",
+    "ImageSequenceEndTime": "2017-11-13T11:10:11",
+    "ImageSequenceDefinition": 23,
+    "SequenceIdentifiedBy": [ "A Aaronson", "B Bobson" ],
+    "SequenceIdentifications": [{
+      "SpeciesScientificName": "species oneus",
+      "Count": 3
+    }]
+  }
+}

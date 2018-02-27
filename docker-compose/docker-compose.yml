@@ -1,13 +1,13 @@
 version: '3'
 services:
   ctms-api:
-    image: ctms-rest-api # expects the image locally, built using ./build.sh
+    image: adelaideecoinformatics/ctms-rest-api-docker:latest
     depends_on:
       - mongodb
     ports:
       - '8880:80'
     environment:
-      - MONGO_HOST=mongodb
+      - CRA_MONGO_HOST=mongodb
   mongodb:
     image: mongo
     command: mongod --noauth

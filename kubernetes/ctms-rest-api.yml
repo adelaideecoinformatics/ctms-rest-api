@@ -9,13 +9,13 @@ spec:
         run: ctms-server
     spec:
       containers:
-      - image: asia.gcr.io/image-repo-1234/ctms-rest-api:test
+      - image: adelaideecoinformatics/ctms-rest-api-docker:latest
         name: ctms-pod
         ports:
         - containerPort: 80
           protocol: TCP
         env:
-        - name: MONGO_HOST
+        - name: CRA_MONGO_HOST
           value: ctms-mongo
 ---
 apiVersion: v1
